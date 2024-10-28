@@ -30,3 +30,40 @@ main {
     padding: 0;
     box-sizing: border-box;
 }
+
+#Daniel{
+    background-color: var(--moderate-violet);
+}
+#Jonathan {
+    background-color: var(--very-dark-blackish-blue);
+
+}
+
+#Daniel,
+#Jonathan,
+#Patrick {
+    color: var(--white);
+}
+
+#Jeanette,
+#kira {
+    background-color: var(--white);
+}
+
+#Patrick{
+    background-color: var(--very-dark-blackish-blue);
+}
+
+@media only screen and (min-width :500px) {
+    main {
+        max-width: 80%;    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 48px;
+    #Daniel,
+    #Patrick{
+        grid-column: 1/3;
+    }
+    }
+}
