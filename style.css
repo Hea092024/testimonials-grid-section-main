@@ -11,6 +11,13 @@
 }
 body{
     font-family: "Barlow Semi Condensed", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    max-width: 375px;
 }
 
 *{
