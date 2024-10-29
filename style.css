@@ -134,7 +134,7 @@ p {
 
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
     main {
         max-width: 80%;
         display: grid;
@@ -155,6 +155,6 @@ p {
 
     #patrick {
         grid-column: 2/4;
-    }
+    } 
 
 }
